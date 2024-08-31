@@ -46,8 +46,8 @@ const dummyMeals = [
       5. Serve:
          Enjoy this creamy curry with rice or bread.
     `,
-		creator: "Max Schwarz",
-		creator_email: "max@example.com",
+		creator: "Nishant Rastogi",
+		creator_email: "nishant@example.com",
 	},
 	{
 		title: "Homemade Dumplings",
