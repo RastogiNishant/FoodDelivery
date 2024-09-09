@@ -4,7 +4,7 @@ import { getMeal } from "@/lib/meals";
 
 const MealDetailsPage = ({ params }) => {
 	const meal = getMeal(params.mealSlug);
-	const instructions = meal.instructions.replace(/\n/g, "<br/>");
+	const instructions = meal?.instructions.replace(/\n/g, "<br/>");
 	return (
 		<>
 			<header className={classes.header}>
