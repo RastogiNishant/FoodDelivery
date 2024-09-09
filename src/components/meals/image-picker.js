@@ -1,7 +1,7 @@
 "use client";
+import Image from "next/image";
 import { useRef, useState } from "react";
 import classes from "./image-picker.module.css";
-import Image from "next/image";
 
 const ImagePicker = ({ label, name }) => {
 	const [selectedImage, setSelectedImage] = useState(null);

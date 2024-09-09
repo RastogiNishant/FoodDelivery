@@ -6,7 +6,7 @@ import logoImg from "@/assets/logo.png";
 import classes from "./main-header.module.css";
 import NavLink from "./nav-link";
 
-export default function MainHeader() {
+const MainHeader = () => {
 	return (
 		<>
 			<MainHeaderBackground />
@@ -35,4 +35,6 @@ export default function MainHeader() {
 			</header>
 		</>
 	);
-}
+};
+
+export default MainHeader;

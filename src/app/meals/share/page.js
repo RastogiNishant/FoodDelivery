@@ -1,7 +1,7 @@
 import classes from "./page.module.css";
 import ImagePicker from "@/components/meals/image-picker";
 
-export default function ShareMealPage() {
+const ShareMealPage = () => {
 	return (
 		<>
 			<header className={classes.header}>
@@ -58,4 +58,6 @@ export default function ShareMealPage() {
 			</main>
 		</>
 	);
-}
+};
+
+export default ShareMealPage;
