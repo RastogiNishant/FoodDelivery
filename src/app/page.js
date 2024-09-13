@@ -3,6 +3,11 @@ import Link from "next/link";
 import ImageSlideshow from "@/components/images/image-slideshow";
 import classes from "./page.module.css";
 
+export const metadata = {
+	title: "All Meals",
+	description: "Browse the delicious meals shared by our vibrant community",
+};
+
 export default function Home() {
 	return (
 		<>
